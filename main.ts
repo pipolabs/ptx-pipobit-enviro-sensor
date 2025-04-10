@@ -1,10 +1,13 @@
+
 enum TemperatureUnits {
     celsius = 0,
     fahrenheit = 1,
     kelvin = 2,
 }
 
-//% color="#228B22" icon="\uf0eb" weight=100 block="Enviroment sensor"
+//% color="#228B22" icon="\uf0eb" weight=100
+//% block="Enviroment Sensor"
+//% block.loc.es-ES="Sensor Ambiental"
 namespace pipobitEnviroSensor {
 
     //% block="Read temperature from pin $p || in $unit"
